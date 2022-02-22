@@ -1,0 +1,383 @@
+@font-face {
+  font-family: 'Lunema Regular';
+  src: url("/font/Lunema Regular.woff2") format("woff2"), url("/font/Lunema Regular.woff") format("woff"), url("/font/Lunema Regular.ttf") format("truetype");
+}
+
+* {
+  font-family: 'Lunema Regular', sans-serif;
+  color: white;
+}
+
+body {
+  background: #1F18BF;
+}
+
+body .header p {
+  display: block;
+  padding: .5em;
+  float: right;
+  font-size: 1.3em;
+  margin-bottom: -.4em;
+}
+
+body .header svg {
+  stroke-width: 1px;
+  width: 80%;
+  margin-left: 21%;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+}
+
+body .hero .hero-text .hello {
+  color: #1F18BF;
+  text-align: right;
+  font-size: 30rem;
+  margin: auto;
+  -webkit-text-stroke: 1px white;
+}
+
+body .hero .hero-text .info {
+  margin: 0%;
+  padding: 0%;
+  text-align: right;
+  font-size: 4em;
+  margin-top: -5em;
+  margin-bottom: 3em;
+  margin-right: 50%;
+}
+
+body .hero .hero-text .mail {
+  font-size: 2em;
+  margin: auto;
+  padding: 0%;
+  text-align: center;
+  margin-bottom: .5em;
+  text-underline-offset: .2em;
+}
+
+body .hero .more-info .rectangle {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+}
+
+body .hero .more-info .bio {
+  margin: auto;
+  margin-top: 10em;
+  margin-right: 35rem;
+  padding: 0;
+  text-align: left;
+  font-size: 2em;
+  float: right;
+  margin-left: 2em;
+}
+
+body .hero .more-info .img1 {
+  background: url("../img/personal/2.png");
+  background-size: cover;
+  top: 15;
+  margin-left: 65%;
+  width: 412px;
+  height: 617px;
+  margin-top: 2em;
+}
+
+body .hero .more-info .img2 {
+  background: url("../img/personal/1.png");
+  background-size: cover;
+  width: 668px;
+  height: 534px;
+  margin: auto;
+  margin-top: -5em;
+}
+
+body .hero .more-info .action {
+  margin-top: -10em;
+}
+
+body .hero .more-info .scroll {
+  font-size: 2em;
+  margin: auto;
+  padding: 0%;
+  text-align: center;
+  margin-top: 3em;
+}
+
+body .hero .more-info .arrow {
+  width: 2em;
+  margin: auto;
+  margin-top: 1em;
+  padding: 0;
+  position: relative;
+  left: 50%;
+}
+
+body .hero .more-info .gif {
+  background: url("../img/gif/field.gif");
+  width: 750px;
+  height: 300px;
+  margin: auto;
+}
+
+body .hero .more-info .posters-text {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  font-size: 2em;
+}
+
+body .hero .more-info .posters-gif {
+  background: url("../img/gif/posters_gif.gif");
+  background-size: cover;
+  width: 512px;
+  height: 512px;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+body .hero .more-info .posters1 {
+  background: url("../img/posters/poster_1.png");
+  background-size: cover;
+  width: 1220px;
+  height: 435px;
+  margin: auto;
+  margin-top: 5em;
+}
+
+body .hero .more-info .posters2 {
+  background: url("../img/posters/poster_2.png");
+  background-size: cover;
+  width: 1220px;
+  height: 435px;
+  margin: auto;
+  margin-top: 1em;
+}
+
+body .hero .more-info .posters3 {
+  background: url("../img/posters/poster_3.png");
+  background-size: cover;
+  width: 1220px;
+  height: 435px;
+  margin: auto;
+  margin-top: 1em;
+}
+
+body .hero .more-info .posters4 {
+  background: url("../img/posters/poster_4.png");
+  background-size: cover;
+  width: 1220px;
+  height: 435px;
+  margin: auto;
+  margin-top: 1em;
+}
+
+body .hero .more-info .ig {
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+body .hero .more-info .particles {
+  background: url("../img/generative/particles.png");
+  width: 1600px;
+  height: 720px;
+  margin: auto;
+  margin-top: 2em;
+}
+
+body .hero .more-info .genesis {
+  margin-top: 3em;
+}
+
+body .hero .more-info .genesis .genesis-img {
+  background: url("../img/genesis/genesis.jpg");
+  width: 1920px;
+  height: 1080px;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+body .hero .more-info .genesis h2 {
+  font-size: 2em;
+  margin: auto;
+  text-align: center;
+}
+
+body .hero .more-info .vl {
+  margin: auto;
+  width: 65%;
+  margin-left: 20em;
+  margin-top: 2em;
+}
+
+body .hero .more-info .book h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 4em;
+}
+
+body .hero .more-info .book .design {
+  background: url("../img/cover.png");
+  width: 1438px;
+  height: 550px;
+  margin: auto;
+  margin-top: 3em;
+}
+
+body .hero .more-info .gen .td h1 {
+  text-align: right;
+  font-size: 10em;
+  margin-right: 1.5em;
+  margin-bottom: 0;
+}
+
+body .hero .more-info .gen .td h1 span {
+  color: #1F18BF;
+  text-align: right;
+  margin: 0;
+  -webkit-text-stroke: 1px white;
+  letter-spacing: 2rem;
+  margin-right: -.3em;
+}
+
+body .hero .more-info .gen .td .td-txt {
+  margin: auto;
+  text-align: right;
+  font-size: 2em;
+  margin-right: 8em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+body .hero .more-info .gen .td .td1 {
+  background: url("../img/generative/1.png");
+  width: 1400px;
+  height: 438px;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+body .hero .more-info .gen .td .td2 {
+  background: url("../img/generative/2.png");
+  width: 1400px;
+  height: 438px;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+body .hero .more-info .gen .td .void {
+  text-align: left;
+  margin: auto;
+  font-size: 2em;
+  margin-left: 9.8em;
+}
+
+body .hero .more-info .gen .td .voidf {
+  background: url("../img/generative/3.png");
+  width: 1404px;
+  height: 397px;
+  margin: auto;
+  margin-top: 3em;
+}
+
+body .hero .more-info .processing h3 {
+  text-align: right;
+  font-size: 2em;
+  margin-top: 3em;
+  margin-right: 10em;
+}
+
+body .hero .more-info .processing h2 {
+  text-align: right;
+  font-size: 5em;
+  margin-right: 4em;
+  margin-top: -.5em;
+}
+
+body .hero .more-info .processing .p5 {
+  background: url("../img/generative/processing.png");
+  width: 1400px;
+  height: 437px;
+  margin: auto;
+}
+
+body .hero .more-info .blender h2 {
+  text-align: left;
+  font-size: 2em;
+  margin-left: 10em;
+  margin-top: 3em;
+}
+
+body .hero .more-info .blender .blend {
+  background: url("../img/generative/blender.png");
+  width: 1400px;
+  height: 437px;
+  margin: auto;
+}
+
+body .hero .more-info .videos {
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+
+body .hero .more-info .videos h2 {
+  text-align: right;
+  font-size: 3em;
+  margin-right: 6.5em;
+  margin-bottom: 3em;
+}
+
+body .hero .more-info .videos .video-qr {
+  background: url("../img/video-qr.png");
+  width: 948px;
+  height: 419px;
+  margin: auto;
+}
+
+body .hero .more-info .photography h2 {
+  text-align: left;
+  font-size: 3em;
+  margin-left: 6.5em;
+  margin-bottom: 3em;
+}
+
+body .hero .more-info .photography .p1 {
+  background: url("../img/photo/photos1.png");
+  width: 1340px;
+  height: 719px;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+body .hero .more-info .photography .p2 {
+  background: url("../img/photo/photos2.png");
+  width: 1172px;
+  height: 613px;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+body .hero .more-info .photography .p3 {
+  background: url("../img/photo/photos3.png");
+  width: 1405px;
+  height: 663px;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+body .hero .more-info .photography .p4 {
+  background: url("../img/photo/photos4.png");
+  width: 1416px;
+  height: 589px;
+  margin: auto;
+}
+
+body .hero .more-info p {
+  font-size: 1em;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
