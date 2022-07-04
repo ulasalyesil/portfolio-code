@@ -1,12 +1,15 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url("/font/HelveticaNeue-woff/HelveticaNeue-Medium.woff2") format("woff2"), url("/font/HelveticaNeue-woff/HelveticaNeue-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   background-color: #0a0a0a;
   color: #fafafa;
   font-family: 'Helvetica Neue', sans-serif;
-  font-family: 'Helvetica 25 UltraLight', sans-serif;
-  font-family: 'Helvetica 35 Thin', sans-serif;
-  font-family: 'Helvetica 45 Light', sans-serif;
-  font-family: 'Helvetica 55 Roman', sans-serif;
-  font-family: 'Helvetica 65 Medium', sans-serif;
 }
 
 body {
@@ -18,7 +21,7 @@ body {
   overflow: hidden;
   background-color: #0a0a0a;
   color: #fafafa;
-  padding: 16px 24px;
+  margin-left: 16px;
 }
 
 .header a {
@@ -26,19 +29,27 @@ body {
   color: #fafafa;
   text-decoration: none;
   text-align: left;
-  padding: 12px;
-  font-size: 16px;
+  padding: 0%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 18px;
 }
 
 .header .logo {
   display: block;
+  margin-top: 6px;
   margin-left: 50%;
 }
 
-.hero p {
+.hero {
   margin: 16px;
-  font-family: 'Helvetica 65 Medium', sans-serif;
+  margin-right: 16px;
+}
+
+.hero p {
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 32px;
+  font-weight: 500;
 }
 
 .footer {
@@ -65,14 +76,17 @@ body {
 @media only screen and (min-width: 680px) {
   .header {
     margin-left: 32px;
-    padding: 0%;
   }
-  .header a {
-    padding: 0%;
+  .header .name {
+    float: left;
+    color: #fafafa;
+    text-decoration: none;
+    text-align: left;
     font-size: 18px;
   }
   .hero {
     margin-left: 32px;
+    margin-right: 32px;
   }
   .hero p {
     padding: 0%;
