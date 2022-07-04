@@ -1,0 +1,101 @@
+
+html {
+    background-color: #0a0a0a;
+    color: #fafafa;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.header {
+    margin-top: 32px;
+    overflow: hidden;
+    background-color: #0a0a0a;
+    color: #fafafa;
+    padding: 16px 24px;
+
+    a {
+        float: left;
+        color: #fafafa;
+        text-decoration: none;
+        text-align: left;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .logo {
+        display: block;
+        margin-left: 50%;
+    }
+}
+
+.hero {
+
+    p {
+    margin: 16px;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+    font-size: 32px;
+
+    }
+}
+
+.footer {
+    overflow: hidden;
+    color: #fafafa;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-top: 96px;
+
+    .caption {
+        font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    a {
+        float: left;
+        color: #fafafa;
+        text-decoration: none;
+        text-align: left;
+        padding-right: 18px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+    .header {
+
+        margin-left: 32px;
+        padding: 0%;
+
+        a {
+            padding: 0%;
+            font-size: 18px;
+        }
+    }
+
+    .hero {
+        
+            margin-left: 32px;
+        p {
+            padding: 0%;
+            margin-left: 0%;
+            font-size: 48px;
+            margin-top: 64px;
+        }
+    }
+
+    .footer {
+        margin-left: 32px;
+        a {
+            font-size: 18px;
+        }
+    }
+
+}
+
